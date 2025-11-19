@@ -28,7 +28,7 @@ export default function AppRouter() {
           </ProtectedRoute>
         }>
         <Route path="/home" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/about" element={<About />} />
       
       </Route>
 
@@ -36,8 +36,8 @@ export default function AppRouter() {
       {/* this is admin router */}
       <Route element={<AuthLayout/>}>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/Register" element={<Register/>}/>
-        <Route path="/ForgotPassword" element={<ForgotPassword/>}/>
+        <Route path="/register" element={<Register/>}/>
+        <Route path="/forgotPassword" element={<ForgotPassword/>}/>
       </Route>
 
       <Route element={

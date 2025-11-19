@@ -34,7 +34,7 @@ export default function NavBar() {
             )}
 
               {role === "user" && (
-              <Nav.Link as={NavLink} to="/About">
+              <Nav.Link as={NavLink} to="/about">
                 معلومات عنا 
               </Nav.Link>
             )}
